@@ -16,9 +16,9 @@ COPY requirements.txt /app/
 # Install required packages
 RUN pip install -r ./requirements.txt
 
-# Copy app.py and__init__.py outside the container
+# Copy app.py, __init__.py and train.py outside the container
 # to /app/ inside the container
-COPY app.py __init__.py /app/
+COPY app.py __init__.py train.py /app/
 
 # Copy model.pkl outside the container
 # to /app/ inside the container

@@ -6,6 +6,7 @@ import pickle
 from flask import Flask
 from flask import request
 from flask import jsonify
+from train import Perceptron
 import joblib
 
 # Create a flask
