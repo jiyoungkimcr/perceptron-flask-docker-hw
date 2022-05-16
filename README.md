@@ -23,8 +23,7 @@ In here, "predicted_class":-1 means that the predicted class is "Iris setosa".<b
 If predicted_class returns 1 as a result, it means it's classified as "Else" (In real dataset, it would be either "Iris Versicolor" or "Iris Virginica").<br />
 
 ### When you are opening the browser from DOCKER container
-Just like above, you can click open in browser and don't forget to add `/api/v1.0/predict?sl=4.6&pl=1.7` at the end of the address.<br />
-In here, the sl(sepal length) and pl(petal length) can be changed into whatever float input as you wish to check the predicted result.
+Just like above, you can click open in browser and don't forget to add `/api/v1.0/predict?sl=4.6&pl=1.7` at the end of the address showing up in your browser address bar. In here, the sl(sepal length) and pl(petal length) can be changed into whatever float input as you wish to check the predicted result.
 
 ![Screen Shot 2022-05-16 at 6 53 15 PM](https://user-images.githubusercontent.com/53321802/168644107-88fefea1-a302-4c9f-bb1b-5d0fa368350e.png)
 
